@@ -20,6 +20,9 @@ body {
 footer{
     margin-top: 10%;
     color: var(--text);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -150,7 +153,6 @@ body.dark {
 }
 
 #tecnologias {
-    margin-top: 10%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -443,3 +445,42 @@ ul li:nth-child(3) a:before {
 ul li:nth-child(4) a:before {
   background: #dd4b39;
 }
+
+.div-tecnologias {
+    transform: perspective(750px) translate3d(0px, 0px, -250px) rotateX(10deg)
+      scale(0.9, 0.9);
+    border-radius: 20px;
+    border: 5px solid #e6e6e6;
+    box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease-in-out transform;
+    
+    
+  
+    &:hover {
+      transform: translate3d(0px, 0px, -250px);
+    }
+  }
+  .div-tecnologias img{
+    height:100%; 
+    width: 100%;
+    background-size: cover; 
+    background-image: url(/img/tecnologias.png); 
+    border-radius: 10px;
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.card video{
+    border-radius: 10px;
+}
+

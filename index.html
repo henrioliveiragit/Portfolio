@@ -18,125 +18,51 @@
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary fixed-top">
-
-        <div class="container-fluid">
-
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navegação</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#"><i class="fa-solid fa-house">
-                                </i> HOME</a>
-                        </li>
-                        <hr class="hr hr-blurry" />
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#sobreMim"><i class="fa-solid fa-address-card"></i> SOBRE
-                                MIM</a>
-                        </li>
-                        <hr class="hr hr-blurry" />
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#tecnologias"><i class="fa-solid fa-microchip"></i>
-                                TECNOLOGIAS</a>
-                        </li>
-                        <hr class="hr hr-blurry" />
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#projetos"><i class="fa-solid fa-diagram-project"></i>
-                                PROJETOS</a>
-                        </li>
-                        <hr class="hr hr-blurry" />
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#contato"><i class="fa-solid fa-address-card"></i>
-                                CONTATO</a>
-                        </li>
-                        <hr class="hr hr-blurry" />
-                        <li class="nav-item">
-                            <div>
-                                <input type="checkbox" class="checkbox" id="chk" />
-                                <label class="label" for="chk">
-                                    <i class="fas fa-moon"></i>
-                                    <i class="fas fa-sun"></i>
-                                    <div class="ball"></div>
-                                </label>
-                            </div>
-                        </li>
-
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li> -->
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </nav>
     <div class="d-flex flex-row col-12" id="apresentacao">
-        <div class="col-12 apresentacaoContainer">
-            <main class="container">
-                <p>Olá, 👋 Eu sou</p>
-                <section class="animation">
-                    <div class="first">
-                        <div>Henrique Oliveira</div>
-                    </div>
-                    <div class="second">
-                        <div>Desenvolvedor Web</div>
-                    </div>
-                    <div class="third">
-                        <div>Analista de Sistemas</div>
-                    </div>
-                </section>
-            </main>
+        <div class="d-flex flex-column col-12">
+            <div class="col-12">
+                <main class="container">
+                    <p>Olá, 👋 Eu sou</p>
+                    <section class="animation">
+                        <div class="first">
+                            <div>Henrique Oliveira</div>
+                        </div>
+                        <div class="second">
+                            <div>Desenvolvedor Web</div>
+                        </div>
+                        <div class="third">
+                            <div>Analista de Sistemas</div>
+                        </div>
+                    </section>
+                    
+                </main>
+                <a href="https://drive.google.com/file/d/1-2RrlfNx95kkmQMOZtAELeAOhqq9Pwz7/view?usp=sharing"><button type="button"
+                    class="botao-hover">Download CV <i class="fa-solid fa-download"></i></button></a>
 
-            <div class="col-10 col-sm-4">
-                <a href="/arquivos/curriculo ptbr.pdf" download="HenriqueOliveiraCurriculo.pdf"><button type="button"
-                        class="botao-hover">Download CV <i class="fa-solid fa-download"></i></button></a>
-                <a href="#contato">
-                    <button type="button" class="botao-hover">Entrar em Contato <i
-                            class="fa-solid fa-turn-down"></i></button>
-                </a>
+                <!-- <div class="col-10 col-sm-4">
+                    <a href="/arquivos/curriculo ptbr.pdf" download="HenriqueOliveiraCurriculo.pdf"><button type="button"
+                            class="botao-hover">Download CV <i class="fa-solid fa-download"></i></button></a>
+                    <a href="#contato">
+                        <button type="button" class="botao-hover">Entrar em Contato <i
+                                class="fa-solid fa-turn-down"></i></button>
+                    </a>
+    
+                </div> -->
 
             </div>
 
         </div>
+
+
 
     </div>
 
     <div class="col-11 col-sm-10 col-md-9 d-flex flex-column " id="sobreMim">
         <h2>Sobre Mim</h2>
         <hr class="hr hr-blurry" />
-        <div class="d-flex flex-row justify-content-center" style="margin-top: 5%;">
-            <p class="fs-5 col-12 col-sm-10">Atuo como Analista/Desenvolvedor de Sistemas Utilizando Linguagens como
-                Python, Java, C# e Front-End(Angular, React e Vue) </p>
-        </div>
-
-
     </div>
-
-    <div class="col-11 col-sm-10 col-md-9 "
-        style="background-image: url(/img/tecnologias.png); height: 500px; background-size: cover; " id="tecnologias">
+    <div class="col-11 col-sm-10 col-md-9 div-tecnologias" id="tecnologias">
+        <img src="/img/tecnologias.png" alt="">
     </div>
 
 
@@ -203,7 +129,8 @@
                         </p>
                         <div class="collapse" id="collapseExample">
                             <div class="card card-body">
-                                Aplicação Front-End construída com o uso do Pandas para ler e tratar tabelas Excel
+                                Aplicação Front-End construída com a library Streamlit utilizando Python e usando Pandas
+                                para ler e tratar tabelas Excel
                                 salvas em
                                 .csv fazendo renomeamento, exclusão e união de tabelas.
                             </div>
@@ -217,25 +144,12 @@
 
 
                 <div id="carrousel2" class="carousel slide" data-bs-ride="carousel">
-                    <!-- Indicadores -->
-                    <ol class="carousel-indicators">
-                        <li data-bs-target="#carrousel2" data-bs-slide-to="0" class="active"></li>
-                        <li data-bs-target="#carrousel2" data-bs-slide-to="1"></li>
-                        <li data-bs-target="#carrousel2" data-bs-slide-to="2"></li>
-                        <!-- Adicione mais indicadores conforme necessário -->
-                    </ol>
                     <!-- Slides -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/img/grafico.png" alt="Gráfico" class="img-fluid">
+                            <video controls src="/img/javapoo.mp4" class="img-fluid"></video>
                         </div>
-                        <div class="carousel-item">
-                            <img src="/img/tabela.png" alt="Tabela" class="img-fluid">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/img/tabela_filtros.png" alt="Tabela de Filtros" class="img-fluid">
-                        </div>
-                        <!-- Adicione mais slides conforme necessário -->
+
                     </div>
                     <!-- Controles -->
                     <a class="carousel-control-prev" href="#carrousel2" role="button" data-bs-slide="prev">
@@ -257,24 +171,26 @@
                     });
                 </script>
                 <div class="card-body">
-                    <h5 class="card-title">Streamlit e Pandas</h5>
-                    <p class="card-text">Uma pequena demonstração do poder das libraries Pandas e Streamlit combinadas.
+                    <h5 class="card-title">CRUD em Java no Terminal</h5>
+                    <p class="card-text">Um cadastro de Pessoas Físicas e Pessoas Jurídicas feito em Java.
                     </p>
                     <div>
-                        <a href="https://henriqueoliveira.streamlit.app/" class="btn btn-primary"><i
-                                class="bi bi-arrow-up-left-circle-fill"></i> Visitar o Site</a>
-                        <a href="https://github.com/henrioliveiragit/StreamlitPandas-Site" class="btn btn-primary"><i
+                        <button disabled aria-disabled="true" href="" class="btn btn-primary"><i
+                                class="bi bi-arrow-up-left-circle-fill"></i> Visitar o
+                            Site</button>
+                        <a href="https://github.com/henrioliveiragit/Cadastro-POO-Java" class="btn btn-primary"><i
                                 class="bi bi-github"></i> Repositório GitHub</a>
+
                         <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseExample2">
                             <i class="bi bi-info-circle-fill"></i> Infos
                         </button>
                         </p>
-                        <div class="collapse" id="collapseExample">
+                        <div class="collapse" id="collapse2">
                             <div class="card card-body">
-                                Aplicação Front-End construída com o uso do Pandas para ler e tratar tabelas Excel
-                                salvas em
-                                .csv fazendo renomeamento, exclusão e união de tabelas.
+                                Aplicação de console feita como trabalho da faculdade, onde utilizei a Interface
+                                Serializable para salvar e recuperar os dados do tipo (Objeto) PessoaFisica e
+                                PessoaJuridica via arquivos binários.
                             </div>
                         </div>
 
@@ -288,101 +204,124 @@
 
 
         </div>
-        <!-- <div class="col-11 col-sm-10 col-md-9" id="projetos">
-        <h1 class="fs-1">Projetos</h1>
-        <hr class="hr hr-blurry" />
-        <div class="col-12 d-flex flex-row" style="flex-wrap: wrap; margin-top: 5%; justify-content: space-evenly;">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4 card mb-3">
-                <img src="/img/itracker.png" class="card-img-top" height="80%" alt="...">
-                <div class="card-body">
-                    <div class="d-flex flex-row" style="justify-content: space-around;">
-                        <img src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo.png"
-                            width="60px">
-                        <img src="https://cdn.worldvectorlogo.com/logos/react-native-1.svg" width="60px" alt="">
-                        <i class="fa-brands fa-git" style="color: rgb(248, 152, 8); font-size: 60px;"></i>
+        <div class="col-11 d-flex flex-row">
+            <div class="card col-md-6 flex-grow-1 width: 2rem; align-self-left flex-column m-4">
+                <div id="carrousel3" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicadores -->
+                    <ol class="carousel-indicators">
+                    </ol>
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <video controls src="/img/Tracker App.mp4" alt="App" class="img-fluid">
+                        </div>
                     </div>
-                    <p class="card-text">iTracker App</p>
-                    <a href="https://drive.google.com/file/d/1xah173_Wx-JohItbsOB2V16ofo_dhcmh/view"
-                        target="_blank"><button type="button" class="botao">Vídeo de Apresentação <i
-                                class="fa-solid fa-circle-play"></i></button></a>
                 </div>
-            </div>
-            <div class="col-12 col-sm-8 col-md-6 col-lg-4 card mb-3">
-                <img src="/img/backend.png" class="card-img-top" height="80%" alt="...">
+                <script>
+                    // Inicialize o carrossel
+                    const carrousel3 = new bootstrap.Carousel(document.getElementById('carrousel3'), {
+                        interval: 3000, // Defina o intervalo em milissegundos (3 segundos neste exemplo)
+                        wrap: true, // O carrossel continuará a girar indefinidamente
+                        keyboard: false, // Desative a navegação por teclado
+                        pause: 'hover' // Pausa a rotação quando o mouse está sobre o carrossel
+                    });
+                </script>
                 <div class="card-body">
-                    <div class="d-flex flex-row" style="justify-content: space-around;">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4492/4492311.png" width="55px" alt="">
-                        <img src="https://global-uploads.webflow.com/5f8573a3c11b7646d25dfd53/6025353e036d5d76c7f087bd_dotnet.svg"
-                            width="60px">
-                        <img src="https://cdn.cdnlogo.com/logos/c/27/c.svg" width="40px">
-                        <i class="fa-brands fa-git" style="color: rgb(248, 152, 8); font-size: 55px;"></i>
+                    <h5 class="card-title">iTracker App</h5>
+                    <p class="card-text">Aplicativo em React-Native e Firebase para motoristas da iTracker.
+                    </p>
+                    <div>
+                        <button disabled aria-disabled="true" href="" class="btn btn-primary"><i
+                                class="bi bi-arrow-up-left-circle-fill"></i> Visitar o
+                            Site</button>
+                        <button disabled href="" class="btn btn-primary"><i class="bi bi-github"></i> Repositório
+                            GitHub</button>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="bi bi-info-circle-fill"></i> Infos
+                        </button>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                Aplicação mobile feita com React-Native e Firebase para auxiliar motoristas de caminhão,
+                                podendo ver suas viagens pendentes, histórico de viagens finalizadas, declarar
+                                ocorrência, ligar para a central de atendimento e muito mais.
+                            </div>
+                        </div>
+
                     </div>
-                    <p class="card-text">Back-End WEB API REST</p>
-                    <a href="https://github.com/henrioliveiragit/LivrariaEmAngular-Back-End" target="_blank"><button
-                            type="button" class="botao">Repositório <i class="fa-brands fa-github"></i></button></a>
                 </div>
+
             </div>
+            <div class="card col-md-6 flex-grow-1 width: 2rem; align-self-left flex-column m-4">
+
+
+                <div id="carrousel4" class="carousel slide" data-bs-ride="carousel">
+                    <!-- Indicadores -->
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carrousel4" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carrousel4" data-bs-slide-to="1"></li>
+                        <!-- Adicione mais indicadores conforme necessário -->
+                    </ol>
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/img/todo-list.png" alt="Gráfico" class="img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/img/todo-list-2.png" alt="Tabela" class="img-fluid">
+                        </div>
+                        <!-- Adicione mais slides conforme necessário -->
+                    </div>
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#carrousel4" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carrousel4" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </a>
+                </div>
+                <script>
+                    // Inicialize o carrossel
+                    const carrousel4 = new bootstrap.Carousel(document.getElementById('carrousel2'), {
+                        interval: 3000, // Defina o intervalo em milissegundos (3 segundos neste exemplo)
+                        wrap: true, // O carrossel continuará a girar indefinidamente
+                        keyboard: false, // Desative a navegação por teclado
+                        pause: 'hover' // Pausa a rotação quando o mouse está sobre o carrossel
+                    });
+                </script>
+                <div class="card-body">
+                    <h5 class="card-title">To-Do List</h5>
+                    <p class="card-text">Uma lista de gerenciamento de tarefas utilizando Vue.js.
+                    </p>
+                    <div>
+                        <a href="https://todolistvuejs.tiiny.site/" class="btn btn-primary"><i
+                                class="bi bi-arrow-up-left-circle-fill"></i> Visitar o Site</a>
+                        <a href="https://github.com/henrioliveiragit/To-do-list-in-vue.js" class="btn btn-primary"><i
+                                class="bi bi-github"></i> Repositório GitHub</a>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseExample2">
+                            <i class="bi bi-info-circle-fill"></i> Infos
+                        </button>
+                        </p>
+                        <div class="collapse" id="collapse3">
+                            <div class="card card-body">
+                                Aplicação feita em Front-End utilizando Vue.js, Javascript, HTML5 e CSS3.
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
         </div>
-    </div> -->
-
-        <div class="col-11 col-sm-10 col-md-9" id="contato">
-            <h2 class="fs-1">Contato</h2>
-            <hr class="hr hr-blurry" />
-            <div class="d-flex flex-row col-8"
-                style="justify-content: space-around; align-self: center; margin-top: 5%; flex-wrap: wrap;">
-               <!--  <div class="col-10 col-sm-10 col-md-4 col-xl-3">
-                    <a href="https://www.linkedin.com/in/henrique-oliveira-317083201/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-
-                    </a>
-                    <p>Henrique Oliveira</p>
-
-                </div>
-
-                <div class="col-10 col-sm-10 col-md-4 col-xl-3">
-                    <a href="https://github.com/henrioliveiragit" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <p>henrioliveiragit</p>
-                </div>
-
-
-                <div class="col-10 col-sm-10 col-md-4 col-xl-3">
-                    <a href="https://wa.me/5521990494050?text=Ol%C3%A1!" target="_blank">
-                        <i class="fa-solid fa-phone"></i>
-
-                    </a>
-                    <p>(21) 99049-4050</p>
-
-                </div>
-                <div class="col-10 col-sm-10 col-md-4 col-xl-3">
-                    <button class="emailbtn" onclick="CopyEmail()">
-                        <i class="fa-solid fa-envelope"></i>
-                    </button>
-
-                    <p>henriqu3oliveir@gmail.com</p>
-                </div> -->
-                <ul>
-                    <li class="col-10 col-sm-10 col-md-4 col-xl-3">
-                        <a href="https://github.com/henrioliveiragit", target="_blank">
-                            <i class="fa-brands fa-github icon"></i> </a>
-                    </li>
-                    <li class="col-10 col-sm-10 col-md-4 col-xl-3">
-                        <a href="https://wa.me/5521990494050?text=Ol%C3%A1!" target="_blank"><i class="fa-solid fa-phone icon"></i></a>
-                    </li>
-                    <li class="col-10 col-sm-10 col-md-4 col-xl-3">
-                        <a href="https://www.linkedin.com/in/henrique-oliveira-317083201/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a>
-                    </li>
-                    <li class="col-10 col-sm-10 col-md-4 col-xl-3">
-                        <a href="#"><i class="fa-solid fa-envelope icon"></i></a>
-                    </li>
-                </ul>
-            </div>
-            
-
-
-
-
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
@@ -390,7 +329,27 @@
             <script src="script.js"></script>
 </body>
 <footer>
-    
+    <div class="d-flex flex-row col-12"
+                style="justify-content: space-around; align-self: center; margin-top: 5%; flex-wrap: wrap;">
+
+                <ul>
+                    <li class="col-7 col-sm-7 col-md-7 col-xl-7">
+                        <button style="background-color: transparent; border: none;"><a href="https://github.com/henrioliveiragit" , target="_blank">
+                            <i class="fa-brands fa-github icon"></i> </a></button>
+                    </li>
+                    <li class="col-7 col-sm-7 col-md-7 col-xl-7">
+                        <button style="background-color: transparent; border: none;"><a href="https://wa.me/5521990494050?text=Ol%C3%A1!" target="_blank"><i
+                                class="fa-solid fa-phone icon"></i></a></button>
+                    </li>
+                    <li class="col-7 col-sm-7 col-md-7 col-xl-7">
+                        <button style="background-color: transparent; border: none;"><a href="https://www.linkedin.com/in/henrique-oliveira-317083201/" target="_blank"><i
+                                class="fab fa-linkedin-in icon"></i></a></button>
+                    </li>
+                    <li class="col-7 col-sm-7 col-md-7 col-xl-7">
+                        <button style="background-color: transparent; border: none;"><a><i class="fa-solid fa-envelope icon" onclick="CopyEmail()"></i></a></button>
+                    </li>
+                </ul>
+            </div>
 </footer>
 
 </html>
