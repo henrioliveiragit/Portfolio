@@ -20,3 +20,13 @@ function CopyEmail() {
  alert("Email Copiado: " + copyText);
 }
 
+var num = $('.navbar').offset().top;
+
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= num) {
+    $('.navbar').addClass('navbar-fixed-top');
+  } else {
+    $('.navbar').removeClass('navbar-fixed-top');
+  }
+});
+
