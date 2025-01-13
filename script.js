@@ -1,3 +1,4 @@
+import { inject } from "@vercel/analytics"
 const chk = document.getElementById('chk')
 
 
